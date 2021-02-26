@@ -1,10 +1,10 @@
-# image-stitching
+# Image Stitching
 Stitching 2 images to create a wide view
-# Brief introduction 
+# Brief Introduction 
 
-* First we try to match points from both images.to do that we have to use scale invariant feature transform to descibe points.
-This is due to the nature of warrping that might change the feature of the point.
-* Then we deduce the homography matrix after finding matching point between both images.
+* First we try to match points from both images.to do that we have to use scale-invariant feature transform to describe points.
+This is due to the nature of warping that might change the feature of the point.
+* Then we deduce the homography matrix after finding matching points between both images.
 * We proceed by warping the image so it can be "stitched" properly creating a panoramic/wide view 
 <!-- ![Alt text](./images/disparity.png?raw=true "Title") -->
 <!-- ![alt](./images/disparity.png?raw=true "Title") -->
